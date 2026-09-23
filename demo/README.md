@@ -5,6 +5,9 @@ Age=int(input("enter your Age:"))
 Height=float(input("enter your Height:"))
 Favnumber=int(input("enter your Fav number:"))
 
+print()
+
+
 print("Thank You! Here is the personal information we have collected:")
 print("Name:",Name,"(Type:",type(Name),", Memory Address:",id(Name),")")
 print("Age:",Age,"(Type:",type(Age),", Memory Address:",id(Age),")")
