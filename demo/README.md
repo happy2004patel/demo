@@ -1,19 +1,15 @@
-print("welcome to the interactive personal data collection")
+##
+```text
+welcome to the interactive personal data collection
+enter your Name:happy
+enter your Age:22
+enter your Height:5
+enter your Fav number:2
 
-Name=(input("enter your Name:"))
-Age=int(input("enter your Age:"))
-Height=float(input("enter your Height:"))
-Favnumber=int(input("enter your Fav number:"))
-
-print()
-
-
-print("Thank You! Here is the personal information we have collected:")
-print("Name:",Name,"(Type:",type(Name),", Memory Address:",id(Name),")")
-print("Age:",Age,"(Type:",type(Age),", Memory Address:",id(Age),")")
-print("Height:",Height,"(Type:",type(Height),", Memory Address:",id(Height),")")
-print("Favnumber:",Favnumber,"(Type:",type(Favnumber),", Memory Address:",id(Favnumber),")")
-
-Birth_Year = 2026 - 2004
-print("your birth year is approximately:",Birth_Year,"(based on your Age",Age,")")
-print(" Thank you for using the personal data collector.")
+Thank You! Here is the personal information we have collected:
+Name: happy (Type: <class 'str'> , Memory Address: 2388822046640 )
+Age: 22 (Type: <class 'int'> , Memory Address: 140731726169672 )
+Height: 5.0 (Type: <class 'float'> , Memory Address: 2388819030448 )
+Favnumber: 2 (Type: <class 'int'> , Memory Address: 140731726169032 )
+your birth year is approximately: 2004 (based on your Age 22 )
+ Thank you for using the personal data collector.
