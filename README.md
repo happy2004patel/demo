@@ -19,6 +19,3 @@ Birth_Year = 2026 - 2004
 print("your birth year is approximately:",Birth_Year,"(based on your Age",Age,")")
 print(" Thank you for using the personal data collector.")
 =======
-# demo
-this is my first git repos
->>>>>>> 5b138e777e027322fe12666a5d41ca7c304607d9
