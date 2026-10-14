@@ -16,3 +16,11 @@ for i in range(len(lst)):
     lstrevers.append(lstDigi)
 print(lstrevers)    
 print(lst)
+'''
+lstrevers=[5,4,3,2,1]
+i=0, lstdigi =5,lstrevers.append(lstdigi),i=1
+i=1, lstdigi =4,lstrevers.append(lstdigi),i=2
+i=2, lstdigi =3,lstrevers.append(lstdigi),i=3
+i=3, lstdigi =2,lstrevers.append(lstdigi),i=4
+i=4, lstdigi =1,lstrevers.append(lstdigi),i=5
+'''
