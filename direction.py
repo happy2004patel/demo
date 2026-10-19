@@ -1,3 +1,4 @@
+'''
 #'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
 student={
 "name":"happy",
@@ -21,3 +22,6 @@ student2.update({"name":"shree","age":20})
 student2.clear()
 print(student2)
 #print(dir(dict))
+'''
+num ="250"
+print(int(num)+50)
