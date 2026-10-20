@@ -21,13 +21,12 @@ print(tuple([1,2,3]))#list to tuple
 print(tuple("hi"))#string to tuple
 tuple(range(4))#using range function we generate tuple
 
-print(set([1,2,3,3]))
-print(set("hello"))
-print(frozenset([1,2,3,4,5,5]))
+print(set([1,2,3,3]))#list to set
+print(set("hello"))#string to set unordered
+print(frozenset([1,2,3,4,5,5]))#this does not change further
 
-student={ 
+student=[{ 
     "name":"happy",
     "age":21,
     "rollno":123
-}
-print(list(student.items()))
+}]

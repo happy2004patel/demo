@@ -1,7 +1,7 @@
 # define of list : it is a collection data type which is used to store multipe element in a single variable with different data type or same 
 
 # hetrogenous (mixture of many data type)
-# 1 ordered : we can access tha element by using index ,and also update the elementby using index
+#1 ordered : we can access tha element by using index ,and also update the elementby using index
 #2 mutable
 #3 hetrogenous
 #4 dhyamic type
