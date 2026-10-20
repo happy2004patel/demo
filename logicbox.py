@@ -16,12 +16,12 @@ while(True):
         endnum = int(input("enter the end of the range: "))
         sum=0
         for i in range(startnum,endnum):
-            sum=+i
+            sum=sum+i
             if i%2==0 :
                 print(f"number{i} is Even")
             else:
                 print(f"number{i} is odd")        
-        print(f"sum of all numbers from {startnum} to {endnum} is : ")        
+        print(f"sum of all numbers from {startnum} to {endnum} is:{sum} ")        
         print()  
     elif (userinput==3):
         print("Exiting the program. Goodbye!")    
